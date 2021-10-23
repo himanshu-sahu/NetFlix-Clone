@@ -1,0 +1,25 @@
+.nav {
+   position: fixed;
+   top: 0;
+   display: flex;
+   width: 100%;
+   padding: 1rem;
+   justify-content: space-between;
+   z-index: 1;
+
+   transition-timing-function: ease-in;
+   transition: all 500ms;
+}
+.nav_active {
+   background-color: #111;
+}
+.nav_logo {
+   width: 80px;
+   object-fit: contain;
+}
+.user_img {
+   cursor: pointer;
+   width: 30px;
+   object-fit: contain;
+   margin-right: 3rem;
+}
